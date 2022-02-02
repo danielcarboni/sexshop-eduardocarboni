@@ -23,8 +23,8 @@ header {
 
 header img {
     margin: 1rem;
-    width: 25%;
-    height: 50%;
+    width: 10rem;
+    height: 10rem;
     border: solid 1px #ff4f58;
 }
 
@@ -35,14 +35,89 @@ header nav ul {
 
 header nav ul li {
     list-style-type: none;
-    background-color: #ff94ab;
+    background-image: linear-gradient(to right bottom, #ff4f58, #ff94ab 15% 85%, #ff4f58);
     margin: 0.5rem;
 }
 
 ul li a:hover {
-    background-color: #ffffff;
+    background-image: linear-gradient(to right bottom, #ff4f58, #ffffff 15% 85%, #ff4f58);
     color: #ff94ab;
 }
+
+.pulso:hover {
+	-webkit-animation: pulso 1.5s ease-in-out infinite both;
+	        animation: pulso 1.5s ease-in-out infinite both;
+}
+
+ @-webkit-keyframes pulso {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes pulso {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
 
 .border li a:hover {
     border: solid 1px #ff94ab;
@@ -129,6 +204,10 @@ h3 {
     background-color: #ff94ab;
 }
 
+.beneficios ul li {
+    background-image: linear-gradient(to left bottom, #ff4f58, #fff 40%);
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -141,6 +220,7 @@ footer {
 footer div {
     display: flex;
     flex-flow: column wrap;
+    margin: 1rem;
 }
 
 footer div ul {
@@ -150,7 +230,7 @@ footer div ul {
 }
 
 footer div ul li {
-    background-color: #ffffff;
+    background-image: linear-gradient(to right bottom, #ff4f58, #fff 30% 70%, #ff4f58);
     color: #ff4f58;
     border: solid 0.1px #000;
 }
