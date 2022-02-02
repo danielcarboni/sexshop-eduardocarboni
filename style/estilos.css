@@ -1,0 +1,723 @@
+/* Responsive design */
+/* Estilos generales */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'oswald', sans-serif;
+}
+
+/* Desktop */
+html {
+    font-size: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 245%2c 240%2c 1)'%3e%3c/rect%3e%3cpath d='M249.85 0C272.18 6.65 261.87 41.7 280 41.7C304.16 41.7 303.3 9.28 334.44 0C373.3 -11.57 377.22 0 420 0C490 0 490 0 560 0C630 0 630 0 700 0C770 0 770 0 840 0C910 0 910 0 980 0C1050 0 1050 0 1120 0C1190 0 1190 0 1260 0C1325.88 0 1327.61 -4.01 1391.76 0C1397.61 0.37 1394.21 7.52 1400 8.75C1468.33 23.32 1500.32 -5.59 1540 31.61C1570.32 60.03 1540 85.81 1540 140C1540 210 1540 210 1540 280C1540 350 1540 350 1540 420C1540 490 1575 525 1540 560C1505 595 1470 560 1400 560C1330 560 1330 560 1260 560C1190 560 1190 560 1120 560C1050 560 1050 560 980 560C915.18 560 914.04 563.49 850.37 560C844.04 559.65 846.11 554.3 840 552.33C770.93 530.12 771.34 519.63 700 511.64C631.34 503.95 625.2 504.17 560 520.98C531.4 528.35 540.39 552.2 512.4 560C470.39 571.71 466.2 560 420 560C350 560 350 560 280 560C210 560 210 560 140 560C70 560 35 595 0 560C-35 525 0 490 0 420C0 350 0 350 0 280C0 210 0 210 0 140C0 70 -35 35 0 0C35 -35 70 0 140 0C194.93 0 202.18 -14.2 249.85 0' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M840 251.43C825.8 251.43 807.44 267.53 807.44 280C807.44 290.67 824.97 297.72 840 297.72C850.23 297.72 857.95 289.9 857.95 280C857.95 266.76 851.06 251.43 840 251.43' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1260 231C1242.93 231 1223.69 250.06 1217.39 280C1203.81 344.56 1204.97 356.05 1220.25 420C1226.28 445.22 1234.9 456.7 1260 458.33C1324.78 462.54 1332 448.83 1400 431.67C1407.96 429.66 1411.91 425.84 1411.91 420C1411.91 414.16 1405.73 414.38 1400 408.33C1339.39 344.38 1333.12 348.27 1279.22 280C1263.12 259.61 1273.84 231 1260 231' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M280 391.65C241.67 391.65 197.04 404.01 197.04 420C197.04 436.55 242.99 456.72 280 456.72C299.21 456.72 309.47 437.41 309.47 420C309.47 404.88 297.88 391.65 280 391.65' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M980 390.7C965.02 390.7 951.03 404.51 951.03 420C951.03 437.69 964.9 457.06 980 457.06C995.96 457.06 1013.16 437.56 1013.16 420C1013.16 404.38 996.09 390.7 980 390.7' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M196 0C246.34 41.77 233.43 63 280 116.17C294.74 133 300.38 126.55 318.62 140C370.38 178.19 374.88 219.46 420 219.46C454.39 219.46 475.32 183.87 477.65 140C481.15 74.14 409.66 37.42 431.67 0C450.84 -32.58 495.84 0 560 0C630 0 630 0 700 0C770 0 770 0 840 0C910 0 910 0 980 0C1050 0 1050 0 1120 0C1161.36 0 1192.45 -25.71 1202.73 0C1220.45 44.29 1201.75 75.93 1176 140C1160.38 178.87 1141.09 169.07 1120 205.88C1100.98 239.07 1095.77 245.17 1095.77 280C1095.77 297.23 1110.36 293.39 1120 310C1150.99 363.39 1140.77 370.78 1177.04 420C1210.77 465.78 1209.68 480.91 1260 500C1321.16 523.2 1339.25 526.05 1400 504.58C1452.44 486.05 1486.38 462.29 1486.38 420C1486.38 377.71 1442.51 378.38 1400 335.42C1373.24 308.38 1347.84 310.83 1347.84 280C1347.84 237.26 1370.61 231.78 1400 188.28C1417.9 161.78 1416.68 158.42 1442.42 140C1486.68 108.31 1506.81 88.06 1540 88.06C1555.6 88.06 1540 114.03 1540 140C1540 210 1540 210 1540 280C1540 350 1540 350 1540 420C1540 490 1575 525 1540 560C1505 595 1470 560 1400 560C1330 560 1330 560 1260 560C1193.68 560 1192.06 563.7 1127.37 560C1122.06 559.7 1124.02 552 1120 552C1115.15 552 1116.05 559.63 1109.63 560C1046.05 563.63 1044.82 560 980 560C947.6 560 915.19 571.3 915.19 560C915.19 545.57 950.43 537.27 980 508.53C1022.44 467.27 1059.21 461.94 1059.21 420C1059.21 382.68 1018.43 350 980 350C944.22 350 943.83 383.57 910.8 420C873.83 460.76 884.47 498.47 840 504.38C779.07 512.47 772.41 458.54 700 448C632.41 438.16 621.94 436.68 560 463.61C493.14 492.68 503.41 517.99 442.4 560C433.41 566.19 431.2 560 420 560C350 560 350 560 280 560C224 560 168 571.03 168 560C168 548.08 233.04 549.15 280 514.1C326.81 479.15 355.53 464.62 355.53 420C355.53 381.24 320.39 380.5 280 347.34C235.12 310.5 224.75 320.8 185 280C154.75 248.95 162.21 203.64 140 203.64C117.98 203.64 103.41 238.33 96.55 280C85.59 346.51 97.5 350.29 104.36 420C111.27 490.29 151.88 522.72 124.09 560C99.7 592.72 29.15 592.89 0 560C-32.89 522.89 0 490 0 420C0 350 0 350 0 280C0 210 0 210 0 140C0 70 -35 35 0 0C35 -35 70 0 140 0C168 0 176.34 -16.32 196 0' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M700 64C669.15 64 645.71 100.42 645.71 140C645.71 187.68 672.02 189.75 700 238.52C712.19 259.75 706.87 265.82 726.05 280C776.87 317.57 787.4 342.03 840 342.03C875.79 342.03 902.82 314.66 902.82 280C902.82 233.64 878.04 223.58 840 180C816.94 153.58 808.09 162.77 780.61 140C738.09 104.77 736.6 64 700 64' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M980 83.13C944.59 83.13 912.59 115.83 912.59 140C912.59 160.51 945.56 172.5 980 172.5C1022.6 172.5 1066.67 161.08 1066.67 140C1066.67 116.39 1021.63 83.13 980 83.13' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M140 12.73C137.77 12.73 133.64 4.4 133.64 0C133.64 -1.97 136.82 0 140 0C141.07 0 142.15 -0.91 142.15 0C142.15 5.46 142.02 12.73 140 12.73' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M546.27 140C559.07 73.78 523.27 57.35 528.89 0C530.13 -12.65 544.44 0 560 0C592.94 0 623.69 -21.44 625.88 0C630.84 48.56 574.95 69.79 574.29 140C573.63 209.79 627.23 213.39 623.23 280C620.08 332.39 596.71 333.6 560 378C538.84 403.6 535.36 401.33 507.5 420C465.36 448.25 454.37 471.85 420 471.85C401.41 471.85 401.58 446.37 401.58 420C401.58 383.6 402.84 379.14 420 346.32C439.44 309.14 452.45 316.48 474.78 280C515.59 213.32 532.01 213.78 546.27 140' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 220C9.75 220 29.42 246.65 36.21 280C49.78 346.65 38.64 349.99 40.73 420C42.81 489.99 60 506.89 44.55 560C39.64 576.89 5.38 576.9 0 560C-16.9 506.9 0 490 0 420C0 350 0 350 0 280C0 250 -8.35 220 0 220' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M247.5 280C247.5 253.49 256.87 219.33 280 219.33C314.48 219.33 362.73 257.22 362.73 280C362.73 299.07 319.36 303.04 280 303.04C261.74 303.04 247.5 295.34 247.5 280' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M947.69 280C947.69 259.21 961.59 235 980 235C1001.98 235 1028.46 259.99 1028.46 280C1028.46 297.14 1002.81 309.3 980 309.3C962.43 309.3 947.69 296.36 947.69 280' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M759.39 420C759.39 402.58 803.44 386.33 840 386.33C859.03 386.33 870.57 402.87 870.57 420C870.57 437.92 859.44 456.44 840 456.44C803.85 456.44 759.39 437.64 759.39 420' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1105.26 420C1105.26 406.39 1112.81 393.33 1120 393.33C1127.09 393.33 1133.83 406.42 1133.83 420C1133.83 435.76 1127.1 452 1120 452C1112.82 452 1105.26 435.73 1105.26 420' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1219.47 560C1219.47 555.2 1238.7 541.67 1260 541.67C1304.26 541.67 1350.59 555.37 1350.59 560C1350.59 564.54 1305.3 560 1260 560C1239.74 560 1219.47 564.37 1219.47 560' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1476.36 560C1476.36 543.21 1521.01 501.67 1540 501.67C1552.83 501.67 1555.22 546.05 1540 560C1523.4 575.22 1476.36 572.38 1476.36 560' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    border-bottom: solid 1px #000;
+}
+
+header img {
+    margin: 1rem;
+    width: 25%;
+    height: 50%;
+    border: solid 1px #ff4f58;
+}
+
+header nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header nav ul li {
+    list-style-type: none;
+    background-color: #ff94ab;
+    margin: 0.5rem;
+}
+
+ul li a:hover {
+    background-color: #ffffff;
+    color: #ff94ab;
+}
+
+.border li a:hover {
+    border: solid 1px #ff94ab;
+}
+
+header nav ul li a {
+    padding: 0rem 1rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+/* Menu */
+.menuPpal {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    background-color: #ff94ab;
+}
+
+.menuPpal section img {
+    border: solid 1px #ff4f58;
+    margin: 1rem;
+}
+
+.carruselPpal {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #ff94ab;
+}
+
+.carruselPpal img {
+    width: 90vw;
+    height: 15rem;
+}
+
+.otraSeccion {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: #ff94ab;
+}
+
+.menuPpal .otraSeccion img {
+    width: 10rem;
+    height: 10rem;
+    border: solid 1px #ff4f58;
+    margin: 2rem;
+}
+
+.menuPpal section section img {
+    width: 17rem;
+    height: 10rem;
+}
+
+.menuPpal section ul li {
+    background-color: #ffffff;
+    color: #ff94ab;
+    border: solid 1px #ff4f58;
+    padding: 0rem 3rem;
+    margin: 1rem 1rem;
+    list-style-type: none;
+}
+
+h3 {
+    color: #fff5f0;
+}
+
+.carruselSecundario {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #ff94ab;
+}
+
+.beneficios ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: #ff94ab;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #ff4f58;
+    border-top: solid 1px #000;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+footer div {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+footer div ul {
+    display: flex;
+    flex-flow: column wrap;
+    list-style-type: none;
+}
+
+footer div ul li {
+    background-color: #ffffff;
+    color: #ff4f58;
+    border: solid 0.1px #000;
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: #ff4f58;
+}
+
+
+/* Nombres areas */
+#headerPpal {
+    grid-area: cabezap;
+}
+
+.carruselPpal {
+    grid-area: carruselp;
+}
+
+.otraSeccion {
+    grid-area: secciones;
+}
+
+.carruselSecundario {
+    grid-area: secundario;
+}
+
+.beneficios {
+    grid-area: ventajas;
+}
+
+#piePpal {
+    grid-area: pie;
+}
+
+/* Grids x Áreas */
+#gridPpal {
+    display: grid;
+    grid-template-areas:
+        "cabezap"
+        "carruselp"
+        "secciones"
+        "secundario"
+        "ventajas"
+        "pie"
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 20% 15% 15% 10% 20%;
+}
+
+/* Hombres, mujeres, esenciales */
+/* Nombre areas */
+#headerGeneral {
+    grid-area: cabezag;
+}
+
+aside {
+    grid-area: brazo;
+}
+
+.productosGeneral {
+    grid-area: articulos;
+}
+
+#pieGeneral {
+    grid-area: pieg;
+}
+
+#gridGeneral {
+    display: grid;
+    grid-template-areas:
+        "cabezag cabezag"
+        "brazo articulos"
+        "brazo articulos"
+        "brazo articulos"
+        "pieg pieg"
+    ;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#headerGeneral {
+    justify-content: end;
+}
+
+#headerGeneral img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.menuGeneral {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #ff94ab;
+}
+
+.productosGeneral {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 1rem;
+    align-items: space-around;
+}
+
+.productosGeneral article {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1rem;
+    align-content: space-around;
+    justify-content: center;
+    
+}
+
+.menuGeneral aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff94ab;
+    margin: 1rem;
+}
+
+.menuGeneral aside ul {
+    list-style-type: none;
+}
+
+.menuGeneral section #oferta {
+    border: solid 1px #ff4f58;
+}
+
+#pieGeneral {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+#pieGeneral section{
+    text-align: center;
+    background-color: #ff4f58;
+    border-top: solid 1px #000;
+    display: flex;
+    flex-direction: row;
+}
+
+#pieGeneral div {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+#pieGeneral div ul {
+    display: flex;
+    flex-flow: column nowrap;
+    list-style-type: none;
+}
+
+#pieGeneral div ul li {
+    background-color: #ffffff;
+    color: #ff4f58;
+    border: solid 0.1px #000;
+    margin: 0.5rem;
+    padding: 0rem 1rem;
+}
+
+#pieGeneral div ul li a {
+    text-decoration: none;
+    color: #ff4f58;
+}
+
+
+/* Tablets */
+@media (min-width: 480px) and (max-width: 1023px) {
+
+    /* Nombres areas */
+    #headerPpal {
+        grid-area: cabezap;
+    }
+
+    .carruselPpal {
+        grid-area: carruselp;
+    }
+
+    .otraSeccion {
+        grid-area: secciones;
+    }
+
+    .carruselSecundario {
+        grid-area: secundario;
+    }
+
+    .beneficios {
+        grid-area: ventajas;
+    }
+
+    #piePpal {
+        grid-area: pie;
+    }
+
+    /* Grids x Áreas */
+    #gridPpal {
+        display: grid;
+        grid-template-areas:
+            "cabezap cabezap"
+            "carruselp carruselp"
+            "secciones secundario"
+            "ventajas ventajas"
+            "pie pie"
+        ;
+        grid-template-columns: 50% auto;
+        grid-template-rows: 20% auto auto auto 20%;
+
+    }
+
+    html {
+        font-size: 15px;
+    }
+
+    header {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 245%2c 240%2c 1)'%3e%3c/rect%3e%3cpath d='M249.85 0C272.18 6.65 261.87 41.7 280 41.7C304.16 41.7 303.3 9.28 334.44 0C373.3 -11.57 377.22 0 420 0C490 0 490 0 560 0C630 0 630 0 700 0C770 0 770 0 840 0C910 0 910 0 980 0C1050 0 1050 0 1120 0C1190 0 1190 0 1260 0C1325.88 0 1327.61 -4.01 1391.76 0C1397.61 0.37 1394.21 7.52 1400 8.75C1468.33 23.32 1500.32 -5.59 1540 31.61C1570.32 60.03 1540 85.81 1540 140C1540 210 1540 210 1540 280C1540 350 1540 350 1540 420C1540 490 1575 525 1540 560C1505 595 1470 560 1400 560C1330 560 1330 560 1260 560C1190 560 1190 560 1120 560C1050 560 1050 560 980 560C915.18 560 914.04 563.49 850.37 560C844.04 559.65 846.11 554.3 840 552.33C770.93 530.12 771.34 519.63 700 511.64C631.34 503.95 625.2 504.17 560 520.98C531.4 528.35 540.39 552.2 512.4 560C470.39 571.71 466.2 560 420 560C350 560 350 560 280 560C210 560 210 560 140 560C70 560 35 595 0 560C-35 525 0 490 0 420C0 350 0 350 0 280C0 210 0 210 0 140C0 70 -35 35 0 0C35 -35 70 0 140 0C194.93 0 202.18 -14.2 249.85 0' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M840 251.43C825.8 251.43 807.44 267.53 807.44 280C807.44 290.67 824.97 297.72 840 297.72C850.23 297.72 857.95 289.9 857.95 280C857.95 266.76 851.06 251.43 840 251.43' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1260 231C1242.93 231 1223.69 250.06 1217.39 280C1203.81 344.56 1204.97 356.05 1220.25 420C1226.28 445.22 1234.9 456.7 1260 458.33C1324.78 462.54 1332 448.83 1400 431.67C1407.96 429.66 1411.91 425.84 1411.91 420C1411.91 414.16 1405.73 414.38 1400 408.33C1339.39 344.38 1333.12 348.27 1279.22 280C1263.12 259.61 1273.84 231 1260 231' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M280 391.65C241.67 391.65 197.04 404.01 197.04 420C197.04 436.55 242.99 456.72 280 456.72C299.21 456.72 309.47 437.41 309.47 420C309.47 404.88 297.88 391.65 280 391.65' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M980 390.7C965.02 390.7 951.03 404.51 951.03 420C951.03 437.69 964.9 457.06 980 457.06C995.96 457.06 1013.16 437.56 1013.16 420C1013.16 404.38 996.09 390.7 980 390.7' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M196 0C246.34 41.77 233.43 63 280 116.17C294.74 133 300.38 126.55 318.62 140C370.38 178.19 374.88 219.46 420 219.46C454.39 219.46 475.32 183.87 477.65 140C481.15 74.14 409.66 37.42 431.67 0C450.84 -32.58 495.84 0 560 0C630 0 630 0 700 0C770 0 770 0 840 0C910 0 910 0 980 0C1050 0 1050 0 1120 0C1161.36 0 1192.45 -25.71 1202.73 0C1220.45 44.29 1201.75 75.93 1176 140C1160.38 178.87 1141.09 169.07 1120 205.88C1100.98 239.07 1095.77 245.17 1095.77 280C1095.77 297.23 1110.36 293.39 1120 310C1150.99 363.39 1140.77 370.78 1177.04 420C1210.77 465.78 1209.68 480.91 1260 500C1321.16 523.2 1339.25 526.05 1400 504.58C1452.44 486.05 1486.38 462.29 1486.38 420C1486.38 377.71 1442.51 378.38 1400 335.42C1373.24 308.38 1347.84 310.83 1347.84 280C1347.84 237.26 1370.61 231.78 1400 188.28C1417.9 161.78 1416.68 158.42 1442.42 140C1486.68 108.31 1506.81 88.06 1540 88.06C1555.6 88.06 1540 114.03 1540 140C1540 210 1540 210 1540 280C1540 350 1540 350 1540 420C1540 490 1575 525 1540 560C1505 595 1470 560 1400 560C1330 560 1330 560 1260 560C1193.68 560 1192.06 563.7 1127.37 560C1122.06 559.7 1124.02 552 1120 552C1115.15 552 1116.05 559.63 1109.63 560C1046.05 563.63 1044.82 560 980 560C947.6 560 915.19 571.3 915.19 560C915.19 545.57 950.43 537.27 980 508.53C1022.44 467.27 1059.21 461.94 1059.21 420C1059.21 382.68 1018.43 350 980 350C944.22 350 943.83 383.57 910.8 420C873.83 460.76 884.47 498.47 840 504.38C779.07 512.47 772.41 458.54 700 448C632.41 438.16 621.94 436.68 560 463.61C493.14 492.68 503.41 517.99 442.4 560C433.41 566.19 431.2 560 420 560C350 560 350 560 280 560C224 560 168 571.03 168 560C168 548.08 233.04 549.15 280 514.1C326.81 479.15 355.53 464.62 355.53 420C355.53 381.24 320.39 380.5 280 347.34C235.12 310.5 224.75 320.8 185 280C154.75 248.95 162.21 203.64 140 203.64C117.98 203.64 103.41 238.33 96.55 280C85.59 346.51 97.5 350.29 104.36 420C111.27 490.29 151.88 522.72 124.09 560C99.7 592.72 29.15 592.89 0 560C-32.89 522.89 0 490 0 420C0 350 0 350 0 280C0 210 0 210 0 140C0 70 -35 35 0 0C35 -35 70 0 140 0C168 0 176.34 -16.32 196 0' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M700 64C669.15 64 645.71 100.42 645.71 140C645.71 187.68 672.02 189.75 700 238.52C712.19 259.75 706.87 265.82 726.05 280C776.87 317.57 787.4 342.03 840 342.03C875.79 342.03 902.82 314.66 902.82 280C902.82 233.64 878.04 223.58 840 180C816.94 153.58 808.09 162.77 780.61 140C738.09 104.77 736.6 64 700 64' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M980 83.13C944.59 83.13 912.59 115.83 912.59 140C912.59 160.51 945.56 172.5 980 172.5C1022.6 172.5 1066.67 161.08 1066.67 140C1066.67 116.39 1021.63 83.13 980 83.13' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M140 12.73C137.77 12.73 133.64 4.4 133.64 0C133.64 -1.97 136.82 0 140 0C141.07 0 142.15 -0.91 142.15 0C142.15 5.46 142.02 12.73 140 12.73' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M546.27 140C559.07 73.78 523.27 57.35 528.89 0C530.13 -12.65 544.44 0 560 0C592.94 0 623.69 -21.44 625.88 0C630.84 48.56 574.95 69.79 574.29 140C573.63 209.79 627.23 213.39 623.23 280C620.08 332.39 596.71 333.6 560 378C538.84 403.6 535.36 401.33 507.5 420C465.36 448.25 454.37 471.85 420 471.85C401.41 471.85 401.58 446.37 401.58 420C401.58 383.6 402.84 379.14 420 346.32C439.44 309.14 452.45 316.48 474.78 280C515.59 213.32 532.01 213.78 546.27 140' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 220C9.75 220 29.42 246.65 36.21 280C49.78 346.65 38.64 349.99 40.73 420C42.81 489.99 60 506.89 44.55 560C39.64 576.89 5.38 576.9 0 560C-16.9 506.9 0 490 0 420C0 350 0 350 0 280C0 250 -8.35 220 0 220' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M247.5 280C247.5 253.49 256.87 219.33 280 219.33C314.48 219.33 362.73 257.22 362.73 280C362.73 299.07 319.36 303.04 280 303.04C261.74 303.04 247.5 295.34 247.5 280' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M947.69 280C947.69 259.21 961.59 235 980 235C1001.98 235 1028.46 259.99 1028.46 280C1028.46 297.14 1002.81 309.3 980 309.3C962.43 309.3 947.69 296.36 947.69 280' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M759.39 420C759.39 402.58 803.44 386.33 840 386.33C859.03 386.33 870.57 402.87 870.57 420C870.57 437.92 859.44 456.44 840 456.44C803.85 456.44 759.39 437.64 759.39 420' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1105.26 420C1105.26 406.39 1112.81 393.33 1120 393.33C1127.09 393.33 1133.83 406.42 1133.83 420C1133.83 435.76 1127.1 452 1120 452C1112.82 452 1105.26 435.73 1105.26 420' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1219.47 560C1219.47 555.2 1238.7 541.67 1260 541.67C1304.26 541.67 1350.59 555.37 1350.59 560C1350.59 564.54 1305.3 560 1260 560C1239.74 560 1219.47 564.37 1219.47 560' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1476.36 560C1476.36 543.21 1521.01 501.67 1540 501.67C1552.83 501.67 1555.22 546.05 1540 560C1523.4 575.22 1476.36 572.38 1476.36 560' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+        border-bottom: solid 1px #000;
+    }
+
+    header img {
+        margin: 1rem;
+        width: 25%;
+        height: 50%;
+        border: solid 1px #ff4f58;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    header nav ul li {
+        list-style-type: none;
+        background-color: #ff94ab;
+        margin: 0.5rem;
+    }
+
+    ul li a:hover {
+        background-color: #ffffff;
+        color: #ff94ab;
+    }
+
+    .border li a:hover {
+        border: solid 1px #ff94ab;
+    }
+
+    header nav ul li a {
+        padding: 0rem 0.5rem;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    h2 {
+        color: #ffffff;
+    }
+
+    /* Menu */
+    .menuPpal {
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+        background-color: #ff94ab;
+    }
+
+    .menuPpal section img {
+        border: solid 1px #ff4f58;
+        margin: 1rem;
+    }
+
+    .carruselPpal {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        background-color: #ff94ab;
+    }
+
+    .carruselPpal img {
+        width: 40vw;
+        height: 10rem;
+    }
+
+    .otraSeccion {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #ff94ab;
+    }
+
+    .menuPpal .otraSeccion img {
+        width: 7rem;
+        height: 7rem;
+        border: solid 1px #ff4f58;
+        margin: 1.5rem;
+    }
+
+    h3 {
+        color: #fff5f0;
+    }
+
+    .carruselSecundario {
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: #ff94ab;
+    }
+
+    .menuPpal .carruselSecundario img {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 13rem;
+        height: 6rem;
+    }
+
+    .beneficios ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #ff94ab;
+    }
+
+    .beneficios ul li {
+        background-color: #ffffff;
+        color: #ff94ab;
+        border: solid 1px #ff4f58;
+        padding: 0rem 2rem;
+        margin: 1rem 1rem;
+        list-style-type: none;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        background-color: #ff4f58;
+        border-top: solid 1px #000;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    footer div {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    footer div ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        list-style-type: none;
+
+    }
+
+    footer div ul li {
+        background-color: #ffffff;
+        color: #ff4f58;
+        border: solid 0.1px #000;
+        padding: 0rem 0.5rem;
+    }
+
+    footer div ul li a {
+        text-decoration: none;
+        color: #ff4f58;
+    }
+}
+
+
+/* Smartphone */
+@media (max-width: 479px) {
+
+    /* Nombres areas */
+    #headerPpal {
+        grid-area: cabezap;
+    }
+
+    .carruselPpal {
+        grid-area: carruselp;
+    }
+
+    .otraSeccion {
+        grid-area: secciones;
+    }
+
+    .carruselSecundario {
+        grid-area: secundario;
+    }
+
+    .beneficios {
+        grid-area: ventajas;
+    }
+
+    #piePpal {
+        grid-area: pie;
+    }
+
+    /* Grids x Áreas */
+    #gridPpal {
+        display: grid;
+        grid-template-areas:
+            "cabezap"
+            "carruselp"
+            "secciones"
+            "secundario"
+            "ventajas"
+            "pie"
+        ;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 15% 15% 10% 20%;
+    }
+
+    html {
+        font-size: 10px;
+    }
+
+    /* Header */
+    header {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 245%2c 240%2c 1)'%3e%3c/rect%3e%3cpath d='M249.85 0C272.18 6.65 261.87 41.7 280 41.7C304.16 41.7 303.3 9.28 334.44 0C373.3 -11.57 377.22 0 420 0C490 0 490 0 560 0C630 0 630 0 700 0C770 0 770 0 840 0C910 0 910 0 980 0C1050 0 1050 0 1120 0C1190 0 1190 0 1260 0C1325.88 0 1327.61 -4.01 1391.76 0C1397.61 0.37 1394.21 7.52 1400 8.75C1468.33 23.32 1500.32 -5.59 1540 31.61C1570.32 60.03 1540 85.81 1540 140C1540 210 1540 210 1540 280C1540 350 1540 350 1540 420C1540 490 1575 525 1540 560C1505 595 1470 560 1400 560C1330 560 1330 560 1260 560C1190 560 1190 560 1120 560C1050 560 1050 560 980 560C915.18 560 914.04 563.49 850.37 560C844.04 559.65 846.11 554.3 840 552.33C770.93 530.12 771.34 519.63 700 511.64C631.34 503.95 625.2 504.17 560 520.98C531.4 528.35 540.39 552.2 512.4 560C470.39 571.71 466.2 560 420 560C350 560 350 560 280 560C210 560 210 560 140 560C70 560 35 595 0 560C-35 525 0 490 0 420C0 350 0 350 0 280C0 210 0 210 0 140C0 70 -35 35 0 0C35 -35 70 0 140 0C194.93 0 202.18 -14.2 249.85 0' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M840 251.43C825.8 251.43 807.44 267.53 807.44 280C807.44 290.67 824.97 297.72 840 297.72C850.23 297.72 857.95 289.9 857.95 280C857.95 266.76 851.06 251.43 840 251.43' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1260 231C1242.93 231 1223.69 250.06 1217.39 280C1203.81 344.56 1204.97 356.05 1220.25 420C1226.28 445.22 1234.9 456.7 1260 458.33C1324.78 462.54 1332 448.83 1400 431.67C1407.96 429.66 1411.91 425.84 1411.91 420C1411.91 414.16 1405.73 414.38 1400 408.33C1339.39 344.38 1333.12 348.27 1279.22 280C1263.12 259.61 1273.84 231 1260 231' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M280 391.65C241.67 391.65 197.04 404.01 197.04 420C197.04 436.55 242.99 456.72 280 456.72C299.21 456.72 309.47 437.41 309.47 420C309.47 404.88 297.88 391.65 280 391.65' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M980 390.7C965.02 390.7 951.03 404.51 951.03 420C951.03 437.69 964.9 457.06 980 457.06C995.96 457.06 1013.16 437.56 1013.16 420C1013.16 404.38 996.09 390.7 980 390.7' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M196 0C246.34 41.77 233.43 63 280 116.17C294.74 133 300.38 126.55 318.62 140C370.38 178.19 374.88 219.46 420 219.46C454.39 219.46 475.32 183.87 477.65 140C481.15 74.14 409.66 37.42 431.67 0C450.84 -32.58 495.84 0 560 0C630 0 630 0 700 0C770 0 770 0 840 0C910 0 910 0 980 0C1050 0 1050 0 1120 0C1161.36 0 1192.45 -25.71 1202.73 0C1220.45 44.29 1201.75 75.93 1176 140C1160.38 178.87 1141.09 169.07 1120 205.88C1100.98 239.07 1095.77 245.17 1095.77 280C1095.77 297.23 1110.36 293.39 1120 310C1150.99 363.39 1140.77 370.78 1177.04 420C1210.77 465.78 1209.68 480.91 1260 500C1321.16 523.2 1339.25 526.05 1400 504.58C1452.44 486.05 1486.38 462.29 1486.38 420C1486.38 377.71 1442.51 378.38 1400 335.42C1373.24 308.38 1347.84 310.83 1347.84 280C1347.84 237.26 1370.61 231.78 1400 188.28C1417.9 161.78 1416.68 158.42 1442.42 140C1486.68 108.31 1506.81 88.06 1540 88.06C1555.6 88.06 1540 114.03 1540 140C1540 210 1540 210 1540 280C1540 350 1540 350 1540 420C1540 490 1575 525 1540 560C1505 595 1470 560 1400 560C1330 560 1330 560 1260 560C1193.68 560 1192.06 563.7 1127.37 560C1122.06 559.7 1124.02 552 1120 552C1115.15 552 1116.05 559.63 1109.63 560C1046.05 563.63 1044.82 560 980 560C947.6 560 915.19 571.3 915.19 560C915.19 545.57 950.43 537.27 980 508.53C1022.44 467.27 1059.21 461.94 1059.21 420C1059.21 382.68 1018.43 350 980 350C944.22 350 943.83 383.57 910.8 420C873.83 460.76 884.47 498.47 840 504.38C779.07 512.47 772.41 458.54 700 448C632.41 438.16 621.94 436.68 560 463.61C493.14 492.68 503.41 517.99 442.4 560C433.41 566.19 431.2 560 420 560C350 560 350 560 280 560C224 560 168 571.03 168 560C168 548.08 233.04 549.15 280 514.1C326.81 479.15 355.53 464.62 355.53 420C355.53 381.24 320.39 380.5 280 347.34C235.12 310.5 224.75 320.8 185 280C154.75 248.95 162.21 203.64 140 203.64C117.98 203.64 103.41 238.33 96.55 280C85.59 346.51 97.5 350.29 104.36 420C111.27 490.29 151.88 522.72 124.09 560C99.7 592.72 29.15 592.89 0 560C-32.89 522.89 0 490 0 420C0 350 0 350 0 280C0 210 0 210 0 140C0 70 -35 35 0 0C35 -35 70 0 140 0C168 0 176.34 -16.32 196 0' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M700 64C669.15 64 645.71 100.42 645.71 140C645.71 187.68 672.02 189.75 700 238.52C712.19 259.75 706.87 265.82 726.05 280C776.87 317.57 787.4 342.03 840 342.03C875.79 342.03 902.82 314.66 902.82 280C902.82 233.64 878.04 223.58 840 180C816.94 153.58 808.09 162.77 780.61 140C738.09 104.77 736.6 64 700 64' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M980 83.13C944.59 83.13 912.59 115.83 912.59 140C912.59 160.51 945.56 172.5 980 172.5C1022.6 172.5 1066.67 161.08 1066.67 140C1066.67 116.39 1021.63 83.13 980 83.13' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M140 12.73C137.77 12.73 133.64 4.4 133.64 0C133.64 -1.97 136.82 0 140 0C141.07 0 142.15 -0.91 142.15 0C142.15 5.46 142.02 12.73 140 12.73' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M546.27 140C559.07 73.78 523.27 57.35 528.89 0C530.13 -12.65 544.44 0 560 0C592.94 0 623.69 -21.44 625.88 0C630.84 48.56 574.95 69.79 574.29 140C573.63 209.79 627.23 213.39 623.23 280C620.08 332.39 596.71 333.6 560 378C538.84 403.6 535.36 401.33 507.5 420C465.36 448.25 454.37 471.85 420 471.85C401.41 471.85 401.58 446.37 401.58 420C401.58 383.6 402.84 379.14 420 346.32C439.44 309.14 452.45 316.48 474.78 280C515.59 213.32 532.01 213.78 546.27 140' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 220C9.75 220 29.42 246.65 36.21 280C49.78 346.65 38.64 349.99 40.73 420C42.81 489.99 60 506.89 44.55 560C39.64 576.89 5.38 576.9 0 560C-16.9 506.9 0 490 0 420C0 350 0 350 0 280C0 250 -8.35 220 0 220' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M247.5 280C247.5 253.49 256.87 219.33 280 219.33C314.48 219.33 362.73 257.22 362.73 280C362.73 299.07 319.36 303.04 280 303.04C261.74 303.04 247.5 295.34 247.5 280' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M947.69 280C947.69 259.21 961.59 235 980 235C1001.98 235 1028.46 259.99 1028.46 280C1028.46 297.14 1002.81 309.3 980 309.3C962.43 309.3 947.69 296.36 947.69 280' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M759.39 420C759.39 402.58 803.44 386.33 840 386.33C859.03 386.33 870.57 402.87 870.57 420C870.57 437.92 859.44 456.44 840 456.44C803.85 456.44 759.39 437.64 759.39 420' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1105.26 420C1105.26 406.39 1112.81 393.33 1120 393.33C1127.09 393.33 1133.83 406.42 1133.83 420C1133.83 435.76 1127.1 452 1120 452C1112.82 452 1105.26 435.73 1105.26 420' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1219.47 560C1219.47 555.2 1238.7 541.67 1260 541.67C1304.26 541.67 1350.59 555.37 1350.59 560C1350.59 564.54 1305.3 560 1260 560C1239.74 560 1219.47 564.37 1219.47 560' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1476.36 560C1476.36 543.21 1521.01 501.67 1540 501.67C1552.83 501.67 1555.22 546.05 1540 560C1523.4 575.22 1476.36 572.38 1476.36 560' stroke='rgba(255%2c 79%2c 88%2c 0.5)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+        border-bottom: solid 1px #000;
+    }
+
+    header img {
+        margin: 1rem;
+        width: 20%;
+        height: 40%;
+        border: solid 1px #ff4f58;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    header nav ul li {
+        list-style-type: none;
+        background-color: #ff94ab;
+        margin: 0.5rem;
+    }
+
+    ul li a:hover {
+        background-color: #ffffff;
+        color: #ff94ab;
+    }
+
+    .border li a:hover {
+        border: solid 1px #ff94ab;
+    }
+
+    header nav ul li a {
+        padding: 0rem 0.5rem;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    h2 {
+        color: #ffffff;
+    }
+
+    /* Menu */
+    .menuPpal {
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+        background-color: #ff94ab;
+    }
+
+    .menuPpal section img {
+        border: solid 1px #ff4f58;
+        margin: 1rem;
+    }
+
+    .carruselPpal {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-content: center;
+        background-color: #ff94ab;
+    }
+
+    .carruselPpal img {
+        width: 80vw;
+        height: 10rem;
+    }
+
+    .otraSeccion {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        background-color: #ff94ab;
+    }
+
+    .menuPpal .otraSeccion img {
+        width: 5rem;
+        height: 5rem;
+        border: solid 1px #ff4f58;
+        margin: 1rem;
+    }
+
+    .menuPpal section ul li {
+        background-color: #ffffff;
+        color: #ff94ab;
+        border: solid 1px #ff4f58;
+        padding: 0rem 3rem;
+        margin: 1rem 1rem;
+        list-style-type: none;
+    }
+
+    h3 {
+        color: #fff5f0;
+    }
+
+    .carruselSecundario {
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: #ff94ab;
+    }
+
+    .menuPpal .carruselSecundario img {
+        width: 12rem;
+        height: 6rem;
+    }
+
+    .beneficios ul {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        background-color: #ff94ab;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        background-color: #ff4f58;
+        border-top: solid 1px #000;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    footer div {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    footer div ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+
+    footer div ul li {
+        background-color: #ffffff;
+        color: #ff4f58;
+        border: solid 0.1px #000;
+        padding: 0rem 0.5rem;
+    }
+
+    footer div ul li a {
+        text-decoration: none;
+        color: #ff4f58;
+    }
+
+}
