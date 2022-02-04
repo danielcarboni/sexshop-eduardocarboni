@@ -308,8 +308,6 @@ aside {
         "brazo articulos"
         "pieg pieg"
     ;
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
 #headerGeneral {
@@ -330,7 +328,7 @@ aside {
 
 .productosGeneral {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     margin: 1rem;
     align-items: space-around;
 }
