@@ -10,142 +10,390 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;270;300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../style/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="shortcut icon" href="../img/0.jpg" type="image/x-icon">
 </head>
 
 <body>
-    <header>
-        <a href="../index.html"><img src="../img/0.jpg" alt="Logo de Sakura" class="tamañoImagen"></a>
-        <nav>
-            <ul class="border">
-                <li><a href="./hombre.html">Hombre</a></li>
-                <li><a href="./mujer.html">Mujer</a></li>
-                <li><a href="./esenciales.html">Esenciales</a></li>
-                <li><a href="./contactar.html">Contactar</a></li>
-                <li><a href="#pie">Ir al pie de página</a></li>
-            </ul>
-        </nav>
+    <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="../index.html"><img src="../img/0.jpg" width="150" height="150" class="rounded-circle"
+                        alt="Logo de Sakura"></a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="./hombre.html" class="nav-link px-2 link-dark">Hombres</a></li>
+                    <li><a href="./mujer.html" class="nav-link px-2 link-dark">Mujeres</a></li>
+                    <li><a href="./esenciales.html" class="nav-link px-2 link-dark">Esenciales</a></li>
+                    <li><a href="./contactar.html" class="nav-link px-2 link-dark">Contacto</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
+                </form>
+
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg>
+                    </a>
+                    <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="#">Iniciar sesión</a></li>
+                        <li><a class="dropdown-item" href="#">Configuración</a></li>
+                        <li><a class="dropdown-item" href="#">Perfil</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
-        <aside>
-            <section>
-                <h2>Ofertas</h2>
-                <article>
-                    <img src="../img/sale.png" alt="Imagen de oferta">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, repellat eum.</h3>
-                </article>
-            </section>
-            <section>
-                <h2>CATEGORÍAS</h2>
-                <ul>
-                    <li>Vibradores</li>
-                    <li>Copa menstrual</li>
-                    <li>Consoladores</li>
-                    <li>Bolas chinas</li>
-                    <li>Estimuladores</li>
-                    <li>Plugs</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Marcas</h2>
-                <ul>
-                    <li>Pipedream</li>
-                    <li>Toy Joy</li>
-                </ul>
-            </section>
-        </aside>
-        <section class="tamañoImagen">
-            <article>
-                <img src="../img/1.jpg" alt="">
-                <h3>Artículo 1</h3>
-            </article>
-            <article>
-                <img src="../img/1.jpg" alt="">
-                <h3>Artículo 2</h3>
-            </article>
-            <article>
-                <img src="../img/1.jpg" alt="">
-                <h3>Artículo 3</h3>
-            </article>
-            <article>
-                <img src="../img/1.jpg" alt="">
-                <h3>Artículo 4</h3>
-            </article>
-            <article>
-                <img src="../img/1.jpg" alt="">
-                <h3>Artículo 5</h3>
-            </article>
-            <article>
-                <img src="../img/1.jpg" alt="">
-                <h3>Artículo 6</h3>
-            </article>
-            <article>
-                <img src="../img/1.jpg" alt="">
-                <h3>Artículo 7</h3>
-            </article>
-            <article>
-                <img src="../img/1.jpg" alt="">
-                <h3>Artículo 8</h3>
-            </article>
-            <article>
-                <img src="../img/1.jpg" alt="">
-                <h3>Artículo 9</h3>
-            </article>
-            <article>
-                <img src="../img/1.jpg" alt="">
-                <h3>Artículo 10</h3>
-            </article>
-            <article>
-                <img src="../img/1.jpg" alt="">
-                <h3>Artículo 11</h3>
-            </article>
-            <article>
-                <img src="../img/1.jpg" alt="">
-                <h3>Artículo 12</h3>
-            </article>
-        </section>
+        <div class="container-fluid">
+            <div class="row">
+              <!-- Brazo -->
+              <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2">          
+                <div class="flex-shrink-0 p-3 bg-white" style="width:280;">
+                  <a href="#" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+                    <article class="text-center">
+                      <img
+                        src="https://www.claroshop.com/medios-plazavip/swift/v1/claroshop/landings/ofertasHotSale2021/ICONO_OFERTAS_879x1000_PNG24.png"
+                        width="150" height="250" alt="Imagen de ofertas">
+                      <h2>Ofertas</h2>
+                    </article>
+                  </a>
+                  <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#home-collapse" aria-expanded="true">
+                        CATEGORÍAS
+                      </button>
+                      <div class="collapse show" id="home-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                          <li><a href="#" class="link-dark rounded">Vibradores</a></li>
+                          <li><a href="#" class="link-dark rounded">Anillos</a></li>
+                          <li><a href="#" class="link-dark rounded">Consoladores</a></li>
+                          <li><a href="#" class="link-dark rounded">Masturbadores</a></li>
+                          <li><a href="#" class="link-dark rounded">Bombas de vacío</a></li>
+                          <li><a href="#" class="link-dark rounded">Muñecas</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="mb-1">
+                      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#dashboard-collapse" aria-expanded="false">
+                        MARCAS
+                      </button>
+                      <div class="collapse" id="dashboard-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                          <li><a href="#" class="link-dark rounded">Pipedream</a></li>
+                          <li><a href="#" class="link-dark rounded">Toy Joy</a></li>
+                          <li><a href="#" class="link-dark rounded">Smart</a></li>
+                          <li><a href="#" class="link-dark rounded">Fasex</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="border-top my-3"></li>
+                    <li class="mb-1">
+                      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#account-collapse" aria-expanded="false">
+                        Mi cuenta
+                      </button>
+                      <div class="collapse" id="account-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                          <li><a href="#" class="link-dark rounded">Nueva cuenta</a></li>
+                          <li><a href="#" class="link-dark rounded">Perfil</a></li>
+                          <li><a href="#" class="link-dark rounded">Configuración</a></li>
+                          <li><a href="#" class="link-dark rounded">Cerrar sesión</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Fin brazo -->
+              <!-- Artículos -->
+              <div class="col-sm-8 col-md-9 col-lg-10 col-xl-10 col-xxl-10">          
+                <div class="album py-5 bg-light">
+                  <div class="container">
+      
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img
+                            src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/061/986/products/lube-relax1-13a131bfcd65601fd516062698922517-1024-1024.png"
+                            width="100%" height="225" alt="Lubricante">
+                          <div class="card-body">
+                            <p class="card-text">Lubricante anal siliconado y sin perfume que te proporcionará ese plus de
+                              comodidad para disfrutar de nuevas sensaciones,gracias a sus extractos de jojova ,su textura
+                              cremosa
+                              y su efecto relajante,la penetración es agradable y placentera,analyse me esta considerado como
+                              el
+                              mejor lubricante anal a nivel mundial.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                              </div>
+                              <small class="text-muted">9 mins</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_w89p35geeanPw2z5MSJlHcHnpZga8c2z1oR5zj01nyN6fGJKpUQCK_FaYOKw6HvB_2s&usqp=CAU"
+                            width="100%" height="225" alt="Retardante eyaculación">
+                          <div class="card-body">
+                            <p class="card-text">Un problema común que afecta a muchos hombres y a sus parejas, son las
+                              eyaculaciones prematuras. El hombre llega a tener el orgasmo más rápido de lo que en verdad
+                              quisiera, y hace que el sexo se convierta a un acto efímero, cuando en realidad hubiesen querido
+                              continuar más tiempo.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                              </div>
+                              <small class="text-muted">11 mins</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1eeFXpS9Res580iEG6VrR0DXfpIFU-gPZDUbqOj95CTX81isPyVkzHy97yTuK4lnA9z0&usqp=CAU"
+                            width="100%" height="225" alt="Arnes">
+                          <div class="card-body">
+                            <p class="card-text">La revolución en las protesis ya está aqui.Protesis de alta gama hechas de
+                              latex
+                              natural 100% puro ,tacto más real de todo el mercado, y un sistema de sujeción muy efectiva
+                              gracias
+                              a los cinturones de cuero puro.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                              </div>
+                              <small class="text-muted">15 mins</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+      
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img
+                            src="https://eroticfresh.com/25877-large_default/vagina-y-ano-recargable-interactivo-con-sensor-de-movimiento-10-modos-de-vibracion-masturbador-ciberskin.jpg"
+                            width="100%" height="225" alt="Masturbador recargable">
+                          <div class="card-body">
+                            <p class="card-text">Masturbador recargable (forma de vagina) con 2 potentes motores permiten un
+                              masaje ajustable a lo largo de toda la longitud del pene. 9 modos,realizado en TPR de gran
+                              calidad
+                              con vibración y ventosa para colocarlo sobre cualquier superficie lisa.Haz que tu masturbación
+                              sea
+                              libre de manos. disfrutalo tanto como si fuera real!
+                              Te atreves?</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                              </div>
+                              <small class="text-muted">23 mins</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img src="https://m.media-amazon.com/images/I/41ph2Dql-wL._AC_SY879_.jpg" width="100%" height="225"
+                            alt="Muñeca inflable">
+                          <div class="card-body">
+                            <p class="card-text">Monika , un amor de muñeca con rostro angelical.
+                              Posición erguida, tamaño natural, tiene senos y tres agujeros, vagina ,boca y ano. Ideal para
+                              regalar en una despedida de solteroo simplemente para tu disfrute personal.
+                              Se recomienda el uso de lubricantes neutros con una base acuosa.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                              </div>
+                              <small class="text-muted">31 mins</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKWAZTIypsUMdbYXwRwpcuIvd9LEKbhTB-NRK81FozMYv3Ql_zS1Fvfj279F7nYS1D4xQ&usqp=CAU"
+                            width="100%" height="225" alt="Masturbador realista">
+                          <div class="card-body">
+                            <p class="card-text">Este diseño de masturbador de tacto de piel te llevará al viaje de tu
+                              vida,exactamente como lo haría Jolee.Una herramienta imprescindible para los fanáticos de la
+                              bomba
+                              dulce y picante JOLEE LOVE PORNSTAR,la textura interior realista del masturbador y el orificio
+                              vaginal apretado brindarán una estimulación sensacional y real como nunca antes se habia
+                              conseguido
+                              con un masturbador.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                              </div>
+                              <small class="text-muted">33 mins</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+      
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThQmfPjm1ClGmPouQIN3jkhpuctYvzWisuOw&usqp=CAU"
+                            width="100%" height="225" alt="Extensor de pene">
+                          <div class="card-body">
+                            <p class="card-text">Método de alargamiento del pene a tener en cuenta para aquellas personas que
+                              no
+                              deseen pasar por quirófano para agrandar el pene mediante el método de tracción o bien colocar
+                              el
+                              pene en su posición natural evitando así los posibles dolores asociados a su uso,se encarga de
+                              desarrollar los tejidos del pene agrandando las proporciones y corrigiendo la curvatura del
+                              mismo(enfermedad de Peyronie)</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                              </div>
+                              <small class="text-muted">44 mins</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLr2dhlTJvk6-v_MnyYSqKlhTSoY_cW7SxA&usqp=CAU"
+                            width="100%" height="225" alt="Plug anal">
+                          <div class="card-body">
+                            <p class="card-text">Haz que tu placer se intensifique con éste lujoso plug anal. Con él
+                              experimentarás placeres como nunca antes. Fabricado con silicona súper suave y muy sedosa para
+                              una
+                              mejor inserción.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                              </div>
+                              <small class="text-muted">58 mins</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img
+                            src="https://circulointimo.com/wp-content/uploads/2020/01/3Satisfyer-Men-Heat-Vibration-detalle-4.png"
+                            width="100%" height="225" alt="Masturbador satisfyer">
+                          <div class="card-body">
+                            <p class="card-text">Los hombre también buscan su satisfyer.Masturbador con vibración y función de
+                              calor para hombre,recargable por USB.Éste elegante diseño en negro hace que éste masturbador sea
+                              un
+                              compañero de juegos con estilo,para los hombres modernos.Su tamaño es ideal,se adapta
+                              perfectamente
+                              a la mano y garantiza un funcionamiento agradable.Cuenta con 3 niveles para regular la función
+                              de
+                              calor hasta 40 ºC </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                              </div>
+                              <small class="text-muted">59 mins</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fin artículos -->
     </main>
-    <footer id="pie">
-        <div>
-            <h3>Categorías</h3>
-            <ul>
-                <li>Lencería</li>
-                <li>Mujer</li>
-                <li>Hombre</li>
-                <li>Esenciales</li>
-                <li>Nosotros</li>
-            </ul>
+    <div class="container-fluid">
+    <footer class="py-2">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+          <h5>Categorías</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lencería</a></li>
+            <li class="nav-item mb-2"><a href="./mujer.html" class="nav-link p-0 text-muted">Mujer</a></li>
+            <li class="nav-item mb-2"><a href="./hombre.html" class="nav-link p-0 text-muted">Hombres</a></li>
+            <li class="nav-item mb-2"><a href="./esenciales.html" class="nav-link p-0 text-muted">Esenciales</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Nosotros</a></li>
+          </ul>
         </div>
-        <div>
-            <h3>Información</h3>
-            <ul>
-                <li>Mantenimiento</li>
-                <li>Tabla de talles</li>
-                <li>Terminos y condiciones</li>
-                <li>Pago seguro SSL</li>
-                <li>Política de cookies</li>
-            </ul>
+
+        <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+          <h5>Información</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mantenimiento</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tabla de talles</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pago seguro SSL</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terminos y condiciones</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Política de cookies</a></li>
+          </ul>
         </div>
-        <div>
-            <h3>Atención al cliente</h3>
-            <ul>
-                <li>Botón de arrepentimiento</li>
-                <li>Mi cuenta</li>
-                <li>Lista de deseos</li>
-            </ul>
+
+        <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+          <h5>Atención al cliente</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mi cuenta</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lista de deseos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Botón de arrepentimiento</a></li>
+          </ul>
         </div>
-        <div>
-            <h3>Social</h3>
-            <ul>
-                <li>Boletín informativo</li>
-                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-                <li><a href="https://web.whatsapp.com/" target="_blank">whatsapp</a></li>
-            </ul>
+
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 offset-sm-0 offset-md-1 offset-lg-1 offset-xl-1 offset-xxl-1">
+          <form>
+            <h5>Suscribirse al newsletter</h5>
+            <p>Reciba información mensual de nuestros productos más novedosos</p>
+            <div class="d-flex w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="ejemplo@gmail.com">
+              <button class="btn btn-primary" type="button">Suscribirse</button>
+            </div>
+          </form>
         </div>
-        <p>&copy; 2021 Sakura sex shop. &reg; Todos los derechos reservados.</p>
+      </div>
+
+      <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <p>&copy; 2022 Sakura sex shop. &reg; Todos los derechos reservados.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/" target="_blank"><img
+                src="../icon/icon facebook.png" width="24" height="24" alt=""></a></li>
+          <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/" target="_blank"><img
+                src="../icon/icon Instagram.png" width="24" height="24" alt=""></a></li>
+          <li class="ms-3"><a class="link-dark" href="https://web.whatsapp.com/" target="_blank"><img
+                src="../icon/Icon whatsapp.png" width="24" height="24" alt=""></a></li>
+        </ul>
+      </div>
     </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
