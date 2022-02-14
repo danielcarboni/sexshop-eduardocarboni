@@ -1,0 +1,24 @@
+{
+  "name": "sex-shop-eduardo-carboni-avelar",
+  "version": "1.0.0",
+  "description": "Sex-shop creado por Daniel Carboni\r https://www.linkedin.com/in/danielcarboni/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/origen.scss css/destino.css","watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcarboni/sexshop-eduardocarboni.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielcarboni/sexshop-eduardocarboni/issues"
+  },
+  "homepage": "https://github.com/danielcarboni/sexshop-eduardocarboni#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,20 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff5f0; }
+  section h2 {
+    color: #ff4f58; }
+  section fieldset {
+    display: flex;
+    flex-direction: column; }
+  section .enviar {
+    background-color: #ffffff; }
+    section .enviar:hover {
+      background-color: #0d6efd;
+      color: #ffffff; }
+  section .borrar {
+    background-color: #ffffff; }
+    section .borrar:hover {
+      background-color: #ff4f58;
+      color: #ffffff; }
