@@ -2,32 +2,30 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: $color-cuaternario;
+    background-color: map-get($paleta, color-cuaternario);
 
     h2 {
-        color: $color-primario;
+        color: map-get($paleta, color-primario);
     }
 
     fieldset {
-        display: flex;
-        flex-direction: column;
+        @extend section;
+        align-items: flex-start;
     }
 
     .enviar {
-        background-color: $ausencia-color;
+        background-color: map-get($paleta, ausencia-color);
 
         &:hover {
-            background-color: $accion;
-            color: $ausencia-color;
+            @include color(#0d6efd, #ffffff);
         }
     }
 
     .borrar {
-        background-color: $ausencia-color;
+        background-color: map-get($paleta, ausencia-color);
 
         &:hover {
-            background-color: $color-primario;
-            color: $ausencia-color;
+            @include color(#ff4f58, #ffffff);
         }
     }
 }

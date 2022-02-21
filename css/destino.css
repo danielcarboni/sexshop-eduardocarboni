@@ -1,4 +1,4 @@
-section {
+section, section fieldset {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,8 +6,7 @@ section {
   section h2 {
     color: #ff4f58; }
   section fieldset {
-    display: flex;
-    flex-direction: column; }
+    align-items: flex-start; }
   section .enviar {
     background-color: #ffffff; }
     section .enviar:hover {

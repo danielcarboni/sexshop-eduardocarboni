@@ -1,0 +1,2 @@
+Utilize Scss para agregar un map, un extend y un mixin en el formulario de contacto.
+Agregue meta etiquetas de keywords y descripción en las 5 páginas.
