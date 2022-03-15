@@ -1,15 +1,19 @@
-section {
+#contacto{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: map-get($paleta, color-cuaternario);
+
+    h1 {
+        color: map-get($paleta, color-primario);
+    }
 
     h2 {
         color: map-get($paleta, color-primario);
     }
 
     fieldset {
-        @extend section;
+        @extend #contacto;
         align-items: flex-start;
     }
 

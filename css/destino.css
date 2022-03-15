@@ -1,19 +1,27 @@
-section, section fieldset {
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500; }
+
+#contacto, #contacto fieldset {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #fff5f0; }
-  section h2 {
+  #contacto h1 {
     color: #ff4f58; }
-  section fieldset {
+  #contacto h2 {
+    color: #ff4f58; }
+  #contacto fieldset {
     align-items: flex-start; }
-  section .enviar {
+  #contacto .enviar {
     background-color: #ffffff; }
-    section .enviar:hover {
+    #contacto .enviar:hover {
       background-color: #0d6efd;
       color: #ffffff; }
-  section .borrar {
+  #contacto .borrar {
     background-color: #ffffff; }
-    section .borrar:hover {
+    #contacto .borrar:hover {
       background-color: #ff4f58;
       color: #ffffff; }
